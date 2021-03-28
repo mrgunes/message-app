@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Message from './components/Message';
+
 
 function App() {
   return (
     <div className="app">
-      <h1>Let's build the message app.</h1>
+      <Message />
     </div>
   );
 }
