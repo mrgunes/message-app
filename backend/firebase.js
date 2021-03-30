@@ -13,7 +13,7 @@ const firebaseConfig = {
 
   let firebaseApp=firebase.initializeApp(firebaseConfig);
 
-  let db=firebase.firestore();
+  let db=firebaseApp.firestore();
   let auth=firebase.auth();
   let provider=new firebase.auth.GoogleAuthProvider();
 
