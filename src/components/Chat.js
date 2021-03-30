@@ -23,7 +23,7 @@ function Chat() {
             </div>
 
             <div className='chat__message'>
-                <h2>I am a message</h2>
+                <MessageSide/>
             </div>
 
             <div className='chat__input'>
